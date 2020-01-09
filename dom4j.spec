@@ -31,7 +31,7 @@
 Summary:        Open Source XML framework for Java
 Name:           dom4j
 Version:        1.6.1
-Release:        19%{?dist}
+Release:        20%{?dist}
 Epoch:          0
 License:        BSD
 URL:            http://www.dom4j.org/
@@ -207,6 +207,9 @@ install -p -m 644 %{SOURCE2} $RPM_BUILD_ROOT%{_mavenpomdir}/JPP-%{name}.pom
 %{_datadir}/%{name}-%{version}
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 01.6.1-20
+- Mass rebuild 2013-12-27
+
 * Fri Aug 02 2013 Michal Srb <msrb@redhat.com> - 0:1.6.1-19
 - Add create-tarball.sh script to SRPM
 
